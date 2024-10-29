@@ -93,13 +93,6 @@
     </collision>
   </link>
 
-  <joint name="wheel_left_joint" type="continuous">
-    <origin xyz="0 0.0701101849418642 0" rpy="0 0 0" />
-    <parent link="base_link" />
-    <child link="wheel_left_link" />
-    <axis xyz="0 1 0" />
-  </joint>
-
   <link name="caster_front_link">
     <inertial>
       <origin xyz="3.89968128948481E-07 2.40073004698083E-07 0.00219173397061506" rpy="0 0 0" />
@@ -122,13 +115,6 @@
     </collision>
   </link>
 
-  <joint name="caster_front_joint" type="fixed">
-    <origin xyz="0.04755 0 -0.0275" rpy="0 0 0" />
-    <parent link="base_link" />
-    <child link="caster_front_link" />
-    <axis xyz="0 0 0" />
-  </joint>
-  
   <link name="caster_rear_link">
     <inertial>
       <origin xyz="3.8996812895542E-07 2.40073004698083E-07 0.00219173397061509" rpy="0 0 0" />
@@ -150,13 +136,6 @@
       </geometry>
     </collision>
   </link>
-
-  <joint name="caster_rear_joint" type="fixed">
-    <origin xyz="-0.04755 0 -0.0275" rpy="0 0 0" />
-    <parent link="base_link" />
-    <child link="caster_rear_link" />
-    <axis xyz="0 0 0" />
-  </joint>
 
   <link name="imu_link">
     <inertial>
@@ -182,11 +161,67 @@
       </geometry>
     </collision>
   </link>
+
+  <link name="laser_link">
+    <inertial>
+      <origin xyz="-0.011945780406062 -0.000381929217680526 -0.0170649378129477" rpy="0 0 0" />
+      <mass value="0.073084435549317" />
+      <inertia ixx="1.96074931730795E-05" ixy="-3.62091076640009E-07" ixz="4.28230084046735E-07"
+               iyy="2.40983835136327E-05" iyz="1.50180909250652E-08"
+               izz="4.14184164228595E-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robot_car_v2_description/meshes/laser_link.STL" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robot_car_v2_description/meshes/laser_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="wheel_left_joint" type="continuous">
+    <origin xyz="0 0.0701101849418642 0" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="wheel_left_link" />
+    <axis xyz="0 1 0" />
+  </joint>
+
+  
+
+  <joint name="caster_front_joint" type="fixed">
+    <origin xyz="0.04755 0 -0.0275" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="caster_front_link" />
+    <axis xyz="0 0 0" />
+  </joint>
+  
+  
+
+  <joint name="caster_rear_joint" type="fixed">
+    <origin xyz="-0.04755 0 -0.0275" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="caster_rear_link" />
+    <axis xyz="0 0 0" />
+  </joint>
+
+  
   
   <joint name="imu_joint" type="fixed">
     <origin xyz="0 0 0.0698986241758014" rpy="0 0 0" />
     <parent link="base_link" />
     <child link="imu_link" />
+    <axis xyz="0 0 0" />
+  </joint>
+
+  <joint name="laser_joint" type="fixed">
+    <origin xyz="-0.0050526 -0.0023221 0.1208" rpy="0 0 3.14" />
+    <parent link="base_link" />
+    <child link="laser_link" />
     <axis xyz="0 0 0" />
   </joint>
 

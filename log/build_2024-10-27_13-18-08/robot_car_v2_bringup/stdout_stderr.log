@@ -1,0 +1,27 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_bringup
+-- Install configuration: ""
+-- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/launch
+-- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/launch/robot_car.launch.py
+-- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/ament_index/resource_index/package_run_dependencies/robot_car_v2_bringup
+-- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/ament_index/resource_index/parent_prefix_path/robot_car_v2_bringup
+-- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/environment/path.sh
+-- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/environment/path.dsv
+-- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/local_setup.bash
+-- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/local_setup.sh
+-- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/local_setup.zsh
+-- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/local_setup.dsv
+-- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/package.dsv
+-- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/ament_index/resource_index/packages/robot_car_v2_bringup
+-- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/cmake/robot_car_v2_bringupConfig.cmake
+-- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/cmake/robot_car_v2_bringupConfig-version.cmake
+-- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/package.xml

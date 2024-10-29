@@ -14,7 +14,7 @@ find_package(urdf REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 install(
-  DIRECTORY launch meshes urdf rviz
+  DIRECTORY launch meshes models photos worlds urdf rviz
   DESTINATION share/${PROJECT_NAME}
 )
 

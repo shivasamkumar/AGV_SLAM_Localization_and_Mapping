@@ -46,6 +46,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_car_v2_description" TYPE DIRECTORY FILES
     "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_description/launch"
     "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_description/meshes"
+    "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_description/models"
+    "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_description/photos"
+    "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_description/worlds"
     "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_description/urdf"
     "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_description/rviz"
     )

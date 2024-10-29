@@ -81,6 +81,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_car_v2_localization" TYPE PROGRAM FILES
     "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_localization/robot_car_v2_localization/kalman_filter.py"
     "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_localization/robot_car_v2_localization/imu_republisher.py"
+    "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_localization/robot_car_v2_localization/odometry_motion_model.py"
     )
 endif()
 
