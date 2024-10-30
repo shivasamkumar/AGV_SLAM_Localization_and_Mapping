@@ -77,6 +77,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_car_v2_controller" TYPE PROGRAM FILES
     "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_controller/robot_car_v2_controller/robot_car_v2_controller.py"
     "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_controller/robot_car_v2_controller/noisy_controller.py"
+    "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_controller/robot_car_v2_controller/twist_configure.py"
     )
 endif()
 

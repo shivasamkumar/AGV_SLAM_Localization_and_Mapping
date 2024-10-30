@@ -5,7 +5,7 @@ set(robot_car_v2_controller_BUILD_DEPENDS "rclcpp" "rclpy" "geometry_msgs" "std_
 set(robot_car_v2_controller_BUILDTOOL_DEPENDS "ament_cmake" "ament_cmake_python")
 set(robot_car_v2_controller_BUILD_EXPORT_DEPENDS "rclcpp" "rclpy" "geometry_msgs" "std_msgs" "sensor_msgs" "nav_msgs" "tf2_ros" "tf2" "eigen")
 set(robot_car_v2_controller_BUILDTOOL_EXPORT_DEPENDS )
-set(robot_car_v2_controller_EXEC_DEPENDS "tf_transformations" "ros2launch" "robot_state_publisher" "xacro" "controller_manager" "joy" "joy_teleop" "ros2_controllers" "rclcpp" "rclpy" "geometry_msgs" "std_msgs" "sensor_msgs" "nav_msgs" "tf2_ros" "tf2" "eigen")
+set(robot_car_v2_controller_EXEC_DEPENDS "tf_transformations" "ros2launch" "robot_state_publisher" "xacro" "controller_manager" "joy" "joy_teleop" "ros2_controllers" "ros2_control" "twist_mux" "rclcpp" "rclpy" "geometry_msgs" "std_msgs" "sensor_msgs" "nav_msgs" "tf2_ros" "tf2" "eigen")
 set(robot_car_v2_controller_TEST_DEPENDS "ament_lint_auto" "ament_lint_common")
 set(robot_car_v2_controller_GROUP_DEPENDS )
 set(robot_car_v2_controller_MEMBER_OF_GROUPS )

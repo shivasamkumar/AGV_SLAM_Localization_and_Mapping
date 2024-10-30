@@ -2,6 +2,7 @@ setup.py
 robot_car_v2_controller/__init__.py
 robot_car_v2_controller/noisy_controller.py
 robot_car_v2_controller/robot_car_v2_controller.py
+robot_car_v2_controller/twist_configure.py
 robot_car_v2_controller.egg-info/PKG-INFO
 robot_car_v2_controller.egg-info/SOURCES.txt
 robot_car_v2_controller.egg-info/dependency_links.txt

@@ -36,6 +36,7 @@ install(
 install(PROGRAMS
   ${PROJECT_NAME}/robot_car_v2_controller.py
   ${PROJECT_NAME}/noisy_controller.py
+  ${PROJECT_NAME}/twist_configure.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
