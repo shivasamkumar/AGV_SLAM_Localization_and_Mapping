@@ -43,6 +43,30 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_car_v2_description/environment" TYPE FILE FILES "/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_description/ament_cmake_environment_hooks/pythonpath.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_car_v2_description/environment" TYPE FILE FILES "/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_description/ament_cmake_environment_hooks/pythonpath.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.10/site-packages/robot_car_v2_description-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_description/ament_cmake_python/robot_car_v2_description/robot_car_v2_description.egg-info/")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.10/site-packages/robot_car_v2_description" TYPE DIRECTORY FILES "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_description/robot_car_v2_description/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  execute_process(
+        COMMAND
+        "/home/shiva/.pyenv/shims/python3" "-m" "compileall"
+        "/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/lib/python3.10/site-packages/robot_car_v2_description"
+      )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_car_v2_description" TYPE DIRECTORY FILES
     "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_description/launch"
     "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_description/meshes"
@@ -52,6 +76,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_description/urdf"
     "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_description/rviz"
     )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_car_v2_description" TYPE PROGRAM FILES "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_description/robot_car_v2_description/reset_world.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

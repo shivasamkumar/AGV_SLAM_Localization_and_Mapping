@@ -5,7 +5,7 @@ set(robot_car_v2_localization_BUILD_DEPENDS "rclcpp" "rclpy" "nav_msgs" "sensor_
 set(robot_car_v2_localization_BUILDTOOL_DEPENDS "ament_cmake" "ament_cmake_python")
 set(robot_car_v2_localization_BUILD_EXPORT_DEPENDS "rclcpp" "rclpy" "nav_msgs" "sensor_msgs" "geometry_msgs" "tf2")
 set(robot_car_v2_localization_BUILDTOOL_EXPORT_DEPENDS )
-set(robot_car_v2_localization_EXEC_DEPENDS "robot_localization" "tf_transformations" "rclcpp" "rclpy" "nav_msgs" "sensor_msgs" "geometry_msgs" "tf2")
+set(robot_car_v2_localization_EXEC_DEPENDS "robot_localization" "nav2_amcl" "nav2_map_server" "nav2_lifecycle_manager" "tf_transformations" "rclcpp" "rclpy" "nav_msgs" "sensor_msgs" "geometry_msgs" "tf2")
 set(robot_car_v2_localization_TEST_DEPENDS "ament_lint_auto" "ament_lint_common")
 set(robot_car_v2_localization_GROUP_DEPENDS )
 set(robot_car_v2_localization_MEMBER_OF_GROUPS )

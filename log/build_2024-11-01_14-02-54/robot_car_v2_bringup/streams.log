@@ -1,0 +1,46 @@
+[0.037s] Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake /home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_bringup -DCMAKE_INSTALL_PREFIX=/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup
+[0.177s] -- The C compiler identification is GNU 11.4.0
+[0.311s] -- The CXX compiler identification is GNU 11.4.0
+[0.331s] -- Detecting C compiler ABI info
+[0.474s] -- Detecting C compiler ABI info - done
+[0.494s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.494s] -- Detecting C compile features
+[0.494s] -- Detecting C compile features - done
+[0.505s] -- Detecting CXX compiler ABI info
+[0.674s] -- Detecting CXX compiler ABI info - done
+[0.697s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.697s] -- Detecting CXX compile features
+[0.698s] -- Detecting CXX compile features - done
+[0.712s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.255s] -- Found Python3: /home/shiva/.pyenv/shims/python3 (found version "3.10.9") found components: Interpreter 
+[2.624s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.048s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.048s] -- Added test 'lint_cmake' to check CMake code style
+[3.050s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.053s] -- Added test 'xmllint' to check XML markup files
+[3.057s] -- Configuring done
+[3.062s] -- Generating done
+[3.068s] -- Build files have been written to: /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_bringup
+[3.072s] Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake /home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_bringup -DCMAKE_INSTALL_PREFIX=/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup
+[3.076s] Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_bringup -- -j8 -l8
+[3.156s] Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_bringup -- -j8 -l8
+[3.215s] Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_bringup
+[3.231s] -- Install configuration: ""
+[3.231s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/launch
+[3.231s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/launch/robot_car.launch.py
+[3.231s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/ament_index/resource_index/package_run_dependencies/robot_car_v2_bringup
+[3.231s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/ament_index/resource_index/parent_prefix_path/robot_car_v2_bringup
+[3.232s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/environment/ament_prefix_path.sh
+[3.232s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/environment/ament_prefix_path.dsv
+[3.232s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/environment/path.sh
+[3.233s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/environment/path.dsv
+[3.233s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/local_setup.bash
+[3.234s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/local_setup.sh
+[3.234s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/local_setup.zsh
+[3.234s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/local_setup.dsv
+[3.234s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/package.dsv
+[3.234s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/ament_index/resource_index/packages/robot_car_v2_bringup
+[3.234s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/cmake/robot_car_v2_bringupConfig.cmake
+[3.235s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/cmake/robot_car_v2_bringupConfig-version.cmake
+[3.235s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/package.xml
+[3.241s] Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_bringup
