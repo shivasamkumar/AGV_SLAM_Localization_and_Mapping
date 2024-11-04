@@ -9,3 +9,7 @@ twist_mux:
         topic   : key_vel
         timeout : 0.5
         priority: 90
+      navigation:  # New addition for navigation commands
+        topic   : cmd_vel_nav
+        timeout : 0.5
+        priority: 100  # Highest priority for navigation commands

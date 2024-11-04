@@ -74,6 +74,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_car_v2_localization" TYPE DIRECTORY FILES
     "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_localization/launch"
     "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_localization/config"
+    "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_localization/rviz"
     )
 endif()
 

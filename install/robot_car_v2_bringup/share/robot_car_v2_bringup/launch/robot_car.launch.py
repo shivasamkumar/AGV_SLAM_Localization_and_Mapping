@@ -46,16 +46,16 @@ def generate_launch_description():
         }.items()
     )
 
-    safety_stop = Node(
-        package="robot_car_v2_utils",
-        executable="safety_stop.py",
-        output="screen",
-        parameters=[{"use_sim_time": True}]
-    )
+    # safety_stop = Node(
+    #     package="robot_car_v2_utils",
+    #     executable="safety_stop.py",
+    #     output="screen",
+    #     parameters=[{"use_sim_time": True}]
+    # )
 
     localization = IncludeLaunchDescription(
         os.path.join(
-            get_package_share_directory("robot_car_v2_localization"),
+            get_package_share_directory("robot_car_v2_localization_planning"),
             "launch",
             "global_localization.launch.py"
         ),
@@ -75,9 +75,9 @@ def generate_launch_description():
         package="rviz2",
         executable="rviz2",
         arguments=["-d", os.path.join(
-                get_package_share_directory("robot_car_v2_localization"),
+                get_package_share_directory("robot_car_v2_localization_planning"),
                 "rviz",
-                "global_localization.rviz"
+                "rviz_config_planning.rviz"
             )
         ],
         output="screen",
@@ -104,9 +104,9 @@ def generate_launch_description():
         gazebo,
         controller,
         joystick,
-        safety_stop,
+        # safety_stop,
         localization,
         slam,
-        rviz_localization,
+        # rviz_localization,
         rviz_slam
     ])
