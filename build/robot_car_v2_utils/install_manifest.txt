@@ -6,7 +6,9 @@
 /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/lib/python3.10/site-packages/robot_car_v2_utils-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/lib/python3.10/site-packages/robot_car_v2_utils/__init__.py
 /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/lib/python3.10/site-packages/robot_car_v2_utils/safety_stop.py
+/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/lib/python3.10/site-packages/robot_car_v2_utils/waypoint_navigator.py
 /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/lib/robot_car_v2_utils/safety_stop.py
+/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/lib/robot_car_v2_utils/waypoint_navigator.py
 /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/ament_index/resource_index/package_run_dependencies/robot_car_v2_utils
 /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/ament_index/resource_index/parent_prefix_path/robot_car_v2_utils
 /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/environment/ament_prefix_path.sh

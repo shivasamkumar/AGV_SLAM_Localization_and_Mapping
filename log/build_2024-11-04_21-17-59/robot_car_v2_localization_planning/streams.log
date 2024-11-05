@@ -1,0 +1,56 @@
+[0.027s] Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_localization_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_localization_planning -- -j8 -l8
+[0.091s] Built target ament_cmake_python_copy_robot_car_v2_localization_planning
+[0.681s] running egg_info
+[0.711s] writing robot_car_v2_localization_planning.egg-info/PKG-INFO
+[0.712s] writing dependency_links to robot_car_v2_localization_planning.egg-info/dependency_links.txt
+[0.714s] writing top-level names to robot_car_v2_localization_planning.egg-info/top_level.txt
+[0.800s] reading manifest file 'robot_car_v2_localization_planning.egg-info/SOURCES.txt'
+[0.802s] writing manifest file 'robot_car_v2_localization_planning.egg-info/SOURCES.txt'
+[0.855s] Built target ament_cmake_python_build_robot_car_v2_localization_planning_egg
+[0.874s] Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_localization_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_localization_planning -- -j8 -l8
+[0.909s] Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_localization_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_localization_planning
+[0.929s] -- Install configuration: ""
+[0.929s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/environment/pythonpath.sh
+[0.929s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/environment/pythonpath.dsv
+[0.929s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/lib/python3.10/site-packages/robot_car_v2_localization_planning-0.0.0-py3.10.egg-info
+[0.930s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/lib/python3.10/site-packages/robot_car_v2_localization_planning-0.0.0-py3.10.egg-info/PKG-INFO
+[0.930s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/lib/python3.10/site-packages/robot_car_v2_localization_planning-0.0.0-py3.10.egg-info/top_level.txt
+[0.930s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/lib/python3.10/site-packages/robot_car_v2_localization_planning-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.930s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/lib/python3.10/site-packages/robot_car_v2_localization_planning-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.930s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/lib/python3.10/site-packages/robot_car_v2_localization_planning
+[0.930s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/lib/python3.10/site-packages/robot_car_v2_localization_planning/kalman_filter.py
+[0.930s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/lib/python3.10/site-packages/robot_car_v2_localization_planning/__init__.py
+[0.931s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/lib/python3.10/site-packages/robot_car_v2_localization_planning/imu_republisher.py
+[0.931s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/lib/python3.10/site-packages/robot_car_v2_localization_planning/odometry_motion_model.py
+[1.114s] Listing '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/lib/python3.10/site-packages/robot_car_v2_localization_planning'...
+[1.124s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/include/include
+[1.124s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/include/include/robot_car_v2_localization_planning
+[1.124s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/launch
+[1.124s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/launch/global_localization.launch.py
+[1.124s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/launch/local_localization.launch.py
+[1.124s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/config
+[1.125s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/config/amcl.yaml
+[1.125s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/config/ekf.yaml
+[1.125s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/rviz
+[1.125s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/rviz/global_localization.rviz
+[1.125s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/rviz/rviz_config_planning.rviz
+[1.125s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/rviz/odometry_motion_model_config.rviz
+[1.125s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/lib/robot_car_v2_localization_planning/kalman_filter.py
+[1.126s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/lib/robot_car_v2_localization_planning/imu_republisher.py
+[1.126s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/lib/robot_car_v2_localization_planning/odometry_motion_model.py
+[1.126s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/ament_index/resource_index/package_run_dependencies/robot_car_v2_localization_planning
+[1.126s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/ament_index/resource_index/parent_prefix_path/robot_car_v2_localization_planning
+[1.126s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/environment/ament_prefix_path.sh
+[1.127s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/environment/ament_prefix_path.dsv
+[1.127s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/environment/path.sh
+[1.127s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/environment/path.dsv
+[1.127s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/local_setup.bash
+[1.127s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/local_setup.sh
+[1.127s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/local_setup.zsh
+[1.128s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/local_setup.dsv
+[1.128s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/package.dsv
+[1.128s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/ament_index/resource_index/packages/robot_car_v2_localization_planning
+[1.128s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/cmake/robot_car_v2_localization_planningConfig.cmake
+[1.129s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/cmake/robot_car_v2_localization_planningConfig-version.cmake
+[1.129s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/package.xml
+[1.147s] Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_localization_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_localization_planning

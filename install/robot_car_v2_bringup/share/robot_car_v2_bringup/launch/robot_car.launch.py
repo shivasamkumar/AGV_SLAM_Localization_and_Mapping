@@ -1,6 +1,6 @@
 import os
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument
+from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument, TimerAction
 from launch.conditions import IfCondition, UnlessCondition
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
@@ -45,6 +45,20 @@ def generate_launch_description():
             "use_sim_time": "True"
         }.items()
     )
+
+    # ekf_launch = TimerAction(
+    #     period=15.0,  # wait for 5 seconds, you can adjust this time
+    #     actions=[
+    #         IncludeLaunchDescription(
+    #                 os.path.join(
+    #                     get_package_share_directory("robot_car_v2_localization_planning"),
+    #                     "launch",
+    #                     "local_localization.launch.py"  # Ensure this file includes your EKF launch
+    #                 )
+    #             )
+    #     ]
+    # )
+
 
     # safety_stop = Node(
     #     package="robot_car_v2_utils",
@@ -104,9 +118,10 @@ def generate_launch_description():
         gazebo,
         controller,
         joystick,
+        #ekf_launch,
         # safety_stop,
         localization,
         slam,
-        # rviz_localization,
+        rviz_localization,
         rviz_slam
     ])

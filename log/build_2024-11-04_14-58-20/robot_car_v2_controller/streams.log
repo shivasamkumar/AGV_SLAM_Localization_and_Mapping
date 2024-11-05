@@ -1,0 +1,54 @@
+[0.033s] Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_controller -- -j8 -l8
+[0.104s] Built target ament_cmake_python_copy_robot_car_v2_controller
+[0.562s] running egg_info
+[0.585s] writing robot_car_v2_controller.egg-info/PKG-INFO
+[0.586s] writing dependency_links to robot_car_v2_controller.egg-info/dependency_links.txt
+[0.587s] writing top-level names to robot_car_v2_controller.egg-info/top_level.txt
+[0.656s] reading manifest file 'robot_car_v2_controller.egg-info/SOURCES.txt'
+[0.659s] writing manifest file 'robot_car_v2_controller.egg-info/SOURCES.txt'
+[0.699s] Built target ament_cmake_python_build_robot_car_v2_controller_egg
+[0.714s] Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_controller -- -j8 -l8
+[0.743s] Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_controller
+[0.754s] -- Install configuration: ""
+[0.754s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/environment/pythonpath.sh
+[0.754s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/environment/pythonpath.dsv
+[0.755s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/lib/python3.10/site-packages/robot_car_v2_controller-0.0.0-py3.10.egg-info
+[0.755s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/lib/python3.10/site-packages/robot_car_v2_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[0.755s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/lib/python3.10/site-packages/robot_car_v2_controller-0.0.0-py3.10.egg-info/top_level.txt
+[0.755s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/lib/python3.10/site-packages/robot_car_v2_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.756s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/lib/python3.10/site-packages/robot_car_v2_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.756s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/lib/python3.10/site-packages/robot_car_v2_controller
+[0.756s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/lib/python3.10/site-packages/robot_car_v2_controller/twist_configure.py
+[0.756s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/lib/python3.10/site-packages/robot_car_v2_controller/noisy_controller.py
+[0.756s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/lib/python3.10/site-packages/robot_car_v2_controller/__init__.py
+[0.757s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/lib/python3.10/site-packages/robot_car_v2_controller/robot_car_v2_controller.py
+[0.926s] Listing '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/lib/python3.10/site-packages/robot_car_v2_controller'...
+[0.935s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/launch
+[0.935s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/launch/robot_car_controller.launch.py
+[0.935s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/launch/joystick_teleop.launch.py
+[0.936s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/config
+[0.936s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/config/twist_mux_topics.yaml
+[0.936s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/config/joy_config.yaml
+[0.936s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/config/twist_mux_joy.yaml
+[0.936s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/config/robot_car_v2_controllers.yaml
+[0.936s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/config/joy_teleop.yaml
+[0.937s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/config/twist_mux_locks.yaml
+[0.937s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/lib/robot_car_v2_controller/robot_car_v2_controller.py
+[0.937s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/lib/robot_car_v2_controller/noisy_controller.py
+[0.937s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/lib/robot_car_v2_controller/twist_configure.py
+[0.937s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/ament_index/resource_index/package_run_dependencies/robot_car_v2_controller
+[0.937s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/ament_index/resource_index/parent_prefix_path/robot_car_v2_controller
+[0.937s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/environment/ament_prefix_path.sh
+[0.937s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/environment/ament_prefix_path.dsv
+[0.938s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/environment/path.sh
+[0.938s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/environment/path.dsv
+[0.938s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/local_setup.bash
+[0.938s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/local_setup.sh
+[0.938s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/local_setup.zsh
+[0.938s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/local_setup.dsv
+[0.938s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/package.dsv
+[0.938s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/ament_index/resource_index/packages/robot_car_v2_controller
+[0.939s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/cmake/robot_car_v2_controllerConfig.cmake
+[0.939s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/cmake/robot_car_v2_controllerConfig-version.cmake
+[0.939s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/package.xml
+[0.954s] Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_controller

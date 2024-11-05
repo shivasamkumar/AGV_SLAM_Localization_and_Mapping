@@ -1,0 +1,39 @@
+[0.034s] Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_utils -- -j8 -l8
+[0.066s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.522s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.570s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.573s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.581s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.594s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.611s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.654s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.657s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.681s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.756s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.758s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.785s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.827s] -- Found twist_mux_msgs: 3.0.1 (/opt/ros/humble/share/twist_mux_msgs/cmake)
+[0.913s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.934s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.979s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[1.014s] [31mCMake Error at CMakeLists.txt:22 (find_package):
+[1.015s]   By not providing "Findtf_transformations.cmake" in CMAKE_MODULE_PATH this
+[1.015s]   project has asked CMake to find a package configuration file provided by
+[1.015s]   "tf_transformations", but CMake did not find one.
+[1.015s] 
+[1.015s]   Could not find a package configuration file provided by
+[1.015s]   "tf_transformations" with any of the following names:
+[1.015s] 
+[1.015s]     tf_transformationsConfig.cmake
+[1.016s]     tf_transformations-config.cmake
+[1.016s] 
+[1.016s]   Add the installation prefix of "tf_transformations" to CMAKE_PREFIX_PATH or
+[1.016s]   set "tf_transformations_DIR" to a directory containing one of the above
+[1.016s]   files.  If "tf_transformations" provides a separate development package or
+[1.016s]   SDK, be sure it has been installed.
+[1.016s] 
+[1.017s] [0m
+[1.017s] -- Configuring incomplete, errors occurred!
+[1.020s] See also "/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_utils/CMakeFiles/CMakeOutput.log".
+[1.024s] gmake: *** [Makefile:254: cmake_check_build_system] Error 1
+[1.027s] Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_utils' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_utils -- -j8 -l8

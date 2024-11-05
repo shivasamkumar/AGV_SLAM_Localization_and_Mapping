@@ -1,0 +1,503 @@
+[0.116s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.116s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x732ad480b1f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x732ad480ab60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x732ad480ab60>>, mixin_verb=('build',))
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.282s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shiva/Documents/ros2_projects/robot_car_V2'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_bringup) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_bringup) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_bringup) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_bringup) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_bringup) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_bringup) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_bringup) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_bringup) by extension 'ros'
+[0.295s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_car_v2_bringup' with type 'ros.ament_cmake' and name 'robot_car_v2_bringup'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_controller) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_controller) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_controller) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_controller) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_controller) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_controller) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_controller) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_controller) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_car_v2_controller' with type 'ros.ament_cmake' and name 'robot_car_v2_controller'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_description) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_description) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_description) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_description) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_description) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_description) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_description) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_description) by extension 'ros'
+[0.299s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_car_v2_description' with type 'ros.ament_cmake' and name 'robot_car_v2_description'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_localization_planning) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_localization_planning) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_localization_planning) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_localization_planning) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_localization_planning) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_localization_planning) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_localization_planning) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_localization_planning) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_localization_planning) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_car_v2_localization_planning' with type 'ros.ament_cmake' and name 'robot_car_v2_localization_planning'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_mapping) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_mapping) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_mapping) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_mapping) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_mapping) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_mapping) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_mapping) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_mapping) by extension 'ros'
+[0.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_car_v2_mapping' with type 'ros.ament_cmake' and name 'robot_car_v2_mapping'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_utils) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_utils) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_utils) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_utils) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_utils) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_utils) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_utils) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car_v2_utils) by extension 'ros'
+[0.303s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_car_v2_utils' with type 'ros.ament_cmake' and name 'robot_car_v2_utils'
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.340s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/shiva/Documents/bumperbot_wrkspc/install
+[0.340s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/shiva/Documents/robot_arm/install
+[0.341s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/shiva/Documents/wrk_spc/install
+[0.341s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/shiva/Documents/ros2_projects/robot_car_V2/install
+[0.342s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install
+[0.343s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 408 installed packages in /opt/ros/humble
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_bringup' build argument 'cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_bringup' build argument 'cmake_target' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.393s] DEBUG:colcon.colcon_core.verb:Building package 'robot_car_v2_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup', 'merge_install': False, 'path': '/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_controller' build argument 'cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_controller' build argument 'cmake_target' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.394s] DEBUG:colcon.colcon_core.verb:Building package 'robot_car_v2_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller', 'merge_install': False, 'path': '/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_controller', 'symlink_install': False, 'test_result_base': None}
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_description' build argument 'cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_description' build argument 'cmake_target' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.394s] DEBUG:colcon.colcon_core.verb:Building package 'robot_car_v2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description', 'merge_install': False, 'path': '/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_description', 'symlink_install': False, 'test_result_base': None}
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_localization_planning' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_localization_planning' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_localization_planning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_localization_planning' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_localization_planning' build argument 'cmake_clean_first' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_localization_planning' build argument 'cmake_force_configure' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_localization_planning' build argument 'ament_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_localization_planning' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_localization_planning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.395s] DEBUG:colcon.colcon_core.verb:Building package 'robot_car_v2_localization_planning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_localization_planning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning', 'merge_install': False, 'path': '/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_localization_planning', 'symlink_install': False, 'test_result_base': None}
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_mapping' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_mapping' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_mapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_mapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_mapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.395s] DEBUG:colcon.colcon_core.verb:Building package 'robot_car_v2_mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping', 'merge_install': False, 'path': '/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_mapping', 'symlink_install': False, 'test_result_base': None}
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_utils' build argument 'cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_utils' build argument 'cmake_target' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'robot_car_v2_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'robot_car_v2_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils', 'merge_install': False, 'path': '/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_utils', 'symlink_install': False, 'test_result_base': None}
+[0.396s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.397s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.397s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_bringup' with build type 'ament_cmake'
+[0.397s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_bringup'
+[0.401s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.401s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.401s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.407s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_controller' with build type 'ament_cmake'
+[0.407s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_controller'
+[0.407s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.407s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.412s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_description' with build type 'ament_cmake'
+[0.412s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_description'
+[0.412s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.412s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.417s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_localization_planning' with build type 'ament_cmake'
+[0.418s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_localization_planning'
+[0.418s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.423s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_mapping' with build type 'ament_cmake'
+[0.423s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_mapping'
+[0.423s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.423s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.428s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_utils' with build type 'ament_cmake'
+[0.428s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_utils'
+[0.428s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.428s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_bringup -- -j8 -l8
+[0.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_controller -- -j8 -l8
+[0.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_description -- -j8 -l8
+[0.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_localization_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_localization_planning -- -j8 -l8
+[0.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_mapping -- -j8 -l8
+[0.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_utils -- -j8 -l8
+[0.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_bringup -- -j8 -l8
+[0.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_bringup
+[0.540s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_car_v2_bringup)
+[0.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_bringup
+[0.549s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup' for CMake module files
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup' for CMake config files
+[0.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_bringup', 'cmake_prefix_path')
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/hook/cmake_prefix_path.ps1'
+[0.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/hook/cmake_prefix_path.dsv'
+[0.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/hook/cmake_prefix_path.sh'
+[0.554s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/bin'
+[0.554s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/lib/pkgconfig/robot_car_v2_bringup.pc'
+[0.554s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/lib/python3.10/site-packages'
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/bin'
+[0.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/package.ps1'
+[0.557s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/package.dsv'
+[0.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/package.sh'
+[0.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/package.bash'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/package.zsh'
+[0.562s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/colcon-core/packages/robot_car_v2_bringup)
+[0.588s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_car_v2_bringup)
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup' for CMake module files
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup' for CMake config files
+[0.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_bringup', 'cmake_prefix_path')
+[0.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/hook/cmake_prefix_path.ps1'
+[0.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/hook/cmake_prefix_path.dsv'
+[0.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/hook/cmake_prefix_path.sh'
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/bin'
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/lib/pkgconfig/robot_car_v2_bringup.pc'
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/lib/python3.10/site-packages'
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/bin'
+[0.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/package.ps1'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/package.dsv'
+[0.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/package.sh'
+[0.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/package.bash'
+[0.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/robot_car_v2_bringup/package.zsh'
+[0.598s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_bringup/share/colcon-core/packages/robot_car_v2_bringup)
+[1.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_description -- -j8 -l8
+[1.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_description
+[1.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_controller -- -j8 -l8
+[1.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_localization_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_localization_planning -- -j8 -l8
+[1.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_localization_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_localization_planning
+[1.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_controller
+[1.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_mapping -- -j8 -l8
+[1.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_utils -- -j8 -l8
+[1.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_mapping
+[1.282s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_car_v2_description)
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description' for CMake module files
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description' for CMake config files
+[1.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_description', 'cmake_prefix_path')
+[1.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/hook/cmake_prefix_path.ps1'
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/hook/cmake_prefix_path.dsv'
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/hook/cmake_prefix_path.sh'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/lib'
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/bin'
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/lib/pkgconfig/robot_car_v2_description.pc'
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/lib/python3.10/site-packages'
+[1.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_description', 'pythonpath')
+[1.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/hook/pythonpath.ps1'
+[1.303s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/hook/pythonpath.dsv'
+[1.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/hook/pythonpath.sh'
+[1.306s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/bin'
+[1.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/package.ps1'
+[1.308s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/package.dsv'
+[1.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/package.sh'
+[1.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/package.bash'
+[1.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/package.zsh'
+[1.315s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/colcon-core/packages/robot_car_v2_description)
+[1.320s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_car_v2_localization_planning)
+[1.321s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning' for CMake module files
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning' for CMake config files
+[1.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_localization_planning', 'cmake_prefix_path')
+[1.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/hook/cmake_prefix_path.ps1'
+[1.332s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/hook/cmake_prefix_path.dsv'
+[1.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/hook/cmake_prefix_path.sh'
+[1.337s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/lib'
+[1.337s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/bin'
+[1.337s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/lib/pkgconfig/robot_car_v2_localization_planning.pc'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/lib/python3.10/site-packages'
+[1.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_localization_planning', 'pythonpath')
+[1.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/hook/pythonpath.ps1'
+[1.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/hook/pythonpath.dsv'
+[1.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/hook/pythonpath.sh'
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/bin'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/package.ps1'
+[1.348s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/package.dsv'
+[1.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/package.sh'
+[1.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/package.bash'
+[1.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/package.zsh'
+[1.357s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/colcon-core/packages/robot_car_v2_localization_planning)
+[1.361s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_car_v2_controller)
+[1.362s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller' for CMake module files
+[1.374s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller' for CMake config files
+[1.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_utils
+[1.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_controller', 'cmake_prefix_path')
+[1.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/hook/cmake_prefix_path.ps1'
+[1.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/hook/cmake_prefix_path.dsv'
+[1.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/hook/cmake_prefix_path.sh'
+[1.386s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/lib'
+[1.387s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/bin'
+[1.387s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/lib/pkgconfig/robot_car_v2_controller.pc'
+[1.387s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/lib/python3.10/site-packages'
+[1.387s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_controller', 'pythonpath')
+[1.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/hook/pythonpath.ps1'
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/hook/pythonpath.dsv'
+[1.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/hook/pythonpath.sh'
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/bin'
+[1.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/package.ps1'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/package.dsv'
+[1.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/package.sh'
+[1.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/package.bash'
+[1.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/package.zsh'
+[1.400s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/colcon-core/packages/robot_car_v2_controller)
+[1.404s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_car_v2_description)
+[1.404s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description' for CMake module files
+[1.408s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description' for CMake config files
+[1.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_description', 'cmake_prefix_path')
+[1.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/hook/cmake_prefix_path.ps1'
+[1.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/hook/cmake_prefix_path.dsv'
+[1.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/hook/cmake_prefix_path.sh'
+[1.434s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/lib'
+[1.435s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/bin'
+[1.435s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/lib/pkgconfig/robot_car_v2_description.pc'
+[1.436s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/lib/python3.10/site-packages'
+[1.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_description', 'pythonpath')
+[1.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/hook/pythonpath.ps1'
+[1.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/hook/pythonpath.dsv'
+[1.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/hook/pythonpath.sh'
+[1.441s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/bin'
+[1.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/package.ps1'
+[1.443s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/package.dsv'
+[1.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/package.sh'
+[1.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/package.bash'
+[1.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_description
+[1.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/robot_car_v2_description/package.zsh'
+[1.450s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_description/share/colcon-core/packages/robot_car_v2_description)
+[1.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_localization_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_localization_planning
+[1.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_controller
+[1.453s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_car_v2_localization_planning)
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning' for CMake module files
+[1.454s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning' for CMake config files
+[1.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_localization_planning', 'cmake_prefix_path')
+[1.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/hook/cmake_prefix_path.ps1'
+[1.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/hook/cmake_prefix_path.dsv'
+[1.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/hook/cmake_prefix_path.sh'
+[1.458s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/lib'
+[1.458s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/bin'
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/lib/pkgconfig/robot_car_v2_localization_planning.pc'
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/lib/python3.10/site-packages'
+[1.459s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_localization_planning', 'pythonpath')
+[1.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/hook/pythonpath.ps1'
+[1.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/hook/pythonpath.dsv'
+[1.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/hook/pythonpath.sh'
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/bin'
+[1.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/package.ps1'
+[1.463s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/package.dsv'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/package.sh'
+[1.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/package.bash'
+[1.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/robot_car_v2_localization_planning/package.zsh'
+[1.466s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/share/colcon-core/packages/robot_car_v2_localization_planning)
+[1.468s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_car_v2_mapping)
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping' for CMake module files
+[1.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_mapping
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping' for CMake config files
+[1.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_mapping', 'cmake_prefix_path')
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/hook/cmake_prefix_path.ps1'
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/hook/cmake_prefix_path.dsv'
+[1.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/hook/cmake_prefix_path.sh'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/lib'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/bin'
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/lib/pkgconfig/robot_car_v2_mapping.pc'
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/lib/python3.10/site-packages'
+[1.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_mapping', 'pythonpath')
+[1.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/hook/pythonpath.ps1'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/hook/pythonpath.dsv'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/hook/pythonpath.sh'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/bin'
+[1.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/package.ps1'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/package.dsv'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/package.sh'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/package.bash'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/package.zsh'
+[1.476s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/colcon-core/packages/robot_car_v2_mapping)
+[1.478s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_car_v2_controller)
+[1.478s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller' for CMake module files
+[1.479s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller' for CMake config files
+[1.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_controller', 'cmake_prefix_path')
+[1.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/hook/cmake_prefix_path.ps1'
+[1.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/hook/cmake_prefix_path.dsv'
+[1.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/hook/cmake_prefix_path.sh'
+[1.483s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/lib'
+[1.483s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/bin'
+[1.483s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/lib/pkgconfig/robot_car_v2_controller.pc'
+[1.483s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/lib/python3.10/site-packages'
+[1.483s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_controller', 'pythonpath')
+[1.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/hook/pythonpath.ps1'
+[1.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/hook/pythonpath.dsv'
+[1.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/hook/pythonpath.sh'
+[1.487s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/bin'
+[1.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/package.ps1'
+[1.488s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/package.dsv'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/package.sh'
+[1.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/package.bash'
+[1.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/robot_car_v2_controller/package.zsh'
+[1.491s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_controller/share/colcon-core/packages/robot_car_v2_controller)
+[1.492s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_car_v2_utils)
+[1.492s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils' for CMake module files
+[1.493s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils' for CMake config files
+[1.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_utils
+[1.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_utils', 'cmake_prefix_path')
+[1.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/hook/cmake_prefix_path.ps1'
+[1.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/hook/cmake_prefix_path.dsv'
+[1.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/hook/cmake_prefix_path.sh'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/lib'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/bin'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/lib/pkgconfig/robot_car_v2_utils.pc'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/lib/python3.10/site-packages'
+[1.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_utils', 'pythonpath')
+[1.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/hook/pythonpath.ps1'
+[1.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/hook/pythonpath.dsv'
+[1.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/hook/pythonpath.sh'
+[1.499s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/bin'
+[1.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/package.ps1'
+[1.501s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/package.dsv'
+[1.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/package.sh'
+[1.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/package.bash'
+[1.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/package.zsh'
+[1.503s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/colcon-core/packages/robot_car_v2_utils)
+[1.509s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_car_v2_mapping)
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping' for CMake module files
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping' for CMake config files
+[1.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_mapping', 'cmake_prefix_path')
+[1.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/hook/cmake_prefix_path.ps1'
+[1.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/hook/cmake_prefix_path.dsv'
+[1.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/hook/cmake_prefix_path.sh'
+[1.512s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/lib'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/bin'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/lib/pkgconfig/robot_car_v2_mapping.pc'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/lib/python3.10/site-packages'
+[1.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_mapping', 'pythonpath')
+[1.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/hook/pythonpath.ps1'
+[1.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/hook/pythonpath.dsv'
+[1.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/hook/pythonpath.sh'
+[1.515s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/bin'
+[1.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/package.ps1'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/package.dsv'
+[1.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/package.sh'
+[1.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/package.bash'
+[1.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/package.zsh'
+[1.520s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/colcon-core/packages/robot_car_v2_mapping)
+[1.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_car_v2_utils)
+[1.531s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils' for CMake module files
+[1.532s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils' for CMake config files
+[1.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_utils', 'cmake_prefix_path')
+[1.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/hook/cmake_prefix_path.ps1'
+[1.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/hook/cmake_prefix_path.dsv'
+[1.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/hook/cmake_prefix_path.sh'
+[1.534s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/lib'
+[1.534s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/bin'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/lib/pkgconfig/robot_car_v2_utils.pc'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/lib/python3.10/site-packages'
+[1.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car_v2_utils', 'pythonpath')
+[1.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/hook/pythonpath.ps1'
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/hook/pythonpath.dsv'
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/hook/pythonpath.sh'
+[1.537s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/bin'
+[1.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/package.ps1'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/package.dsv'
+[1.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/package.sh'
+[1.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/package.bash'
+[1.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/robot_car_v2_utils/package.zsh'
+[1.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_utils/share/colcon-core/packages/robot_car_v2_utils)
+[1.541s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.541s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.541s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.541s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.549s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.549s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.549s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.567s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.568s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/local_setup.ps1'
+[1.569s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shiva/Documents/ros2_projects/robot_car_V2/install/_local_setup_util_ps1.py'
+[1.571s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/setup.ps1'
+[1.573s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/local_setup.sh'
+[1.574s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shiva/Documents/ros2_projects/robot_car_V2/install/_local_setup_util_sh.py'
+[1.575s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/setup.sh'
+[1.577s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/local_setup.bash'
+[1.578s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/setup.bash'
+[1.580s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/local_setup.zsh'
+[1.581s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shiva/Documents/ros2_projects/robot_car_V2/install/setup.zsh'

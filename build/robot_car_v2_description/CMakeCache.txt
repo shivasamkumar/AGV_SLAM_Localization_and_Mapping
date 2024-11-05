@@ -244,15 +244,6 @@ RMW_IMPLEMENTATION:STRING=rmw_cyclonedds_cpp
 //Name of the computer/site where compile is being run
 SITE:STRING=shiva-Aspire-A715-75G
 
-//Path to a file.
-TINYXML2_INCLUDE_DIR:PATH=/usr/include
-
-//Path to a library.
-TINYXML2_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libtinyxml2.so
-
-//The directory containing a CMake configuration file for TinyXML2.
-TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
-
 //Path to a library.
 _lib:FILEPATH=/opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
 
@@ -346,12 +337,6 @@ ament_xmllint_BIN:FILEPATH=/opt/ros/humble/bin/ament_xmllint
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/humble/share/builtin_interfaces/cmake
 
-//The directory containing a CMake configuration file for class_loader.
-class_loader_DIR:PATH=/opt/ros/humble/share/class_loader/cmake
-
-//The directory containing a CMake configuration file for console_bridge.
-console_bridge_DIR:PATH=/usr/lib/x86_64-linux-gnu/console_bridge/cmake
-
 //The directory containing a CMake configuration file for fastcdr.
 fastcdr_DIR:PATH=/opt/ros/humble/lib/cmake/fastcdr
 
@@ -375,15 +360,6 @@ libstatistics_collector_DIR:PATH=/opt/ros/humble/share/libstatistics_collector/c
 
 //The directory containing a CMake configuration file for libyaml_vendor.
 libyaml_vendor_DIR:PATH=/opt/ros/humble/share/libyaml_vendor/cmake
-
-//Path to a library.
-onelib:FILEPATH=/opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so
-
-//Path to a library.
-onelibd:FILEPATH=onelibd-NOTFOUND
-
-//The directory containing a CMake configuration file for pluginlib.
-pluginlib_DIR:PATH=/opt/ros/humble/share/pluginlib/cmake
 
 //The directory containing a CMake configuration file for rcl.
 rcl_DIR:PATH=/opt/ros/humble/share/rcl/cmake
@@ -493,23 +469,8 @@ std_msgs_DIR:PATH=/opt/ros/humble/share/std_msgs/cmake
 //The directory containing a CMake configuration file for std_srvs.
 std_srvs_DIR:PATH=/opt/ros/humble/share/std_srvs/cmake
 
-//The directory containing a CMake configuration file for tinyxml2_vendor.
-tinyxml2_vendor_DIR:PATH=/opt/ros/humble/share/tinyxml2_vendor/cmake
-
 //The directory containing a CMake configuration file for tracetools.
 tracetools_DIR:PATH=/opt/ros/humble/share/tracetools/cmake
-
-//The directory containing a CMake configuration file for urdf.
-urdf_DIR:PATH=/opt/ros/humble/share/urdf/cmake
-
-//The directory containing a CMake configuration file for urdf_parser_plugin.
-urdf_parser_plugin_DIR:PATH=/opt/ros/humble/share/urdf_parser_plugin/cmake
-
-//The directory containing a CMake configuration file for urdfdom.
-urdfdom_DIR:PATH=/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom/cmake
-
-//The directory containing a CMake configuration file for urdfdom_headers.
-urdfdom_headers_DIR:PATH=/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom_headers/cmake
 
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint
@@ -676,10 +637,6 @@ FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //The directory for Python library installation. This needs to
 // be in PYTHONPATH when 'setup.py install' is called.
 PYTHON_INSTALL_DIR:INTERNAL=lib/python3.10/site-packages
-//ADVANCED property for variable: TINYXML2_INCLUDE_DIR
-TINYXML2_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: TINYXML2_LIBRARY
-TINYXML2_LIBRARY-ADVANCED:INTERNAL=1
 _Python3_EXECUTABLE:INTERNAL=/home/shiva/.pyenv/shims/python3
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;9;64;;cpython-310-x86_64-linux-gnu;/home/shiva/.pyenv/versions/3.10.9/lib/python3.10;/home/shiva/.pyenv/versions/3.10.9/lib/python3.10;/home/shiva/.pyenv/versions/3.10.9/lib/python3.10/site-packages;/home/shiva/.pyenv/versions/3.10.9/lib/python3.10/site-packages

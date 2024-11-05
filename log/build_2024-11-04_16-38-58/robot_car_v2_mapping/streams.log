@@ -1,0 +1,51 @@
+[0.043s] Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_mapping -- -j8 -l8
+[0.166s] Built target ament_cmake_python_copy_robot_car_v2_mapping
+[0.954s] running egg_info
+[1.000s] writing robot_car_v2_mapping.egg-info/PKG-INFO
+[1.002s] writing dependency_links to robot_car_v2_mapping.egg-info/dependency_links.txt
+[1.003s] writing top-level names to robot_car_v2_mapping.egg-info/top_level.txt
+[1.132s] reading manifest file 'robot_car_v2_mapping.egg-info/SOURCES.txt'
+[1.135s] writing manifest file 'robot_car_v2_mapping.egg-info/SOURCES.txt'
+[1.215s] Built target ament_cmake_python_build_robot_car_v2_mapping_egg
+[1.241s] Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_mapping -- -j8 -l8
+[1.296s] Invoking command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_mapping
+[1.315s] -- Install configuration: ""
+[1.316s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/environment/pythonpath.sh
+[1.316s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/environment/pythonpath.dsv
+[1.317s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/lib/python3.10/site-packages/robot_car_v2_mapping-0.0.0-py3.10.egg-info
+[1.317s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/lib/python3.10/site-packages/robot_car_v2_mapping-0.0.0-py3.10.egg-info/PKG-INFO
+[1.318s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/lib/python3.10/site-packages/robot_car_v2_mapping-0.0.0-py3.10.egg-info/top_level.txt
+[1.318s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/lib/python3.10/site-packages/robot_car_v2_mapping-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.318s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/lib/python3.10/site-packages/robot_car_v2_mapping-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.318s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/lib/python3.10/site-packages/robot_car_v2_mapping
+[1.318s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/lib/python3.10/site-packages/robot_car_v2_mapping/mapping_with_known_poses.py
+[1.319s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/lib/python3.10/site-packages/robot_car_v2_mapping/__init__.py
+[1.599s] Listing '/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/lib/python3.10/site-packages/robot_car_v2_mapping'...
+[1.683s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/include/include
+[1.683s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/include/include/robot_car_v2_mapping
+[1.683s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/maps
+[1.685s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/maps/small_house
+[1.688s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/maps/small_house/map.pgm
+[1.689s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/maps/small_house/map.yaml
+[1.689s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/config
+[1.689s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/config/slam_toobox.yaml
+[1.689s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/config/slam.rviz
+[1.689s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/launch
+[1.689s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/launch/slam.launch.py
+[1.690s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/lib/robot_car_v2_mapping/mapping_with_known_poses.py
+[1.690s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/ament_index/resource_index/package_run_dependencies/robot_car_v2_mapping
+[1.690s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/ament_index/resource_index/parent_prefix_path/robot_car_v2_mapping
+[1.690s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/environment/ament_prefix_path.sh
+[1.690s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/environment/ament_prefix_path.dsv
+[1.691s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/environment/path.sh
+[1.695s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/environment/path.dsv
+[1.695s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/local_setup.bash
+[1.696s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/local_setup.sh
+[1.696s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/local_setup.zsh
+[1.696s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/local_setup.dsv
+[1.696s] -- Installing: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/package.dsv
+[1.696s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/ament_index/resource_index/packages/robot_car_v2_mapping
+[1.706s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/cmake/robot_car_v2_mappingConfig.cmake
+[1.706s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/cmake/robot_car_v2_mappingConfig-version.cmake
+[1.706s] -- Up-to-date: /home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/share/robot_car_v2_mapping/package.xml
+[1.844s] Invoked command in '/home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/ros2_projects/robot_car_V2/build/robot_car_v2_mapping
