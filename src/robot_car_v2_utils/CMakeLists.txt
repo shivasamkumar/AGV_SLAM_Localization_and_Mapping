@@ -16,7 +16,11 @@ find_package(sensor_msgs REQUIRED)
 find_package(twist_mux_msgs REQUIRED)
 find_package(rclcpp_action REQUIRED)
 find_package(visualization_msgs REQUIRED)
-
+find_package(geometry_msgs REQUIRED)
+find_package(tf2 REQUIRED)
+# find_package(nav2_simple_commander REQUIRED)
+# find_package(tf_transformations REQUIRED)
+find_package(builtin_interfaces REQUIRED)
 
 
 ament_python_install_package(${PROJECT_NAME})
@@ -24,6 +28,7 @@ ament_python_install_package(${PROJECT_NAME})
 
 install(PROGRAMS
   ${PROJECT_NAME}/safety_stop.py
+  ${PROJECT_NAME}/waypoint_navigator.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
