@@ -115,13 +115,12 @@ This demo shows the Mapping algorithm and the planning through rviz.The user fir
 
 I have posted video in 3x speed !
 
-[![Watch the video]([hhttps://github.com/shivasamkumar/AGV_SLAM_Localization_and_Mapping/tree/main/src/robot_car_v2_bringup/Demo/Thumbnail_small_house.png](https://github.com/shivasamkumar/AGV_SLAM_Localization_and_Mapping/blob/main/src/robot_car_v2_bringup/Demo/Thumbnail_small_house.png))](https://www.youtube.com/embed/CQWk-VkM-cM)
-
+[![Watch the video]([hhttps://github.com/shivasamkumar/AGV_SLAM_Localization_and_Mapping/tree/main/src/robot_car_v2_bringup/Demo/Thumbnail_small_house.png](https://github.com/shivasamkumar/AGV_SLAM_Localization_and_Mapping/blob/main/src/robot_car_v2_bringup/Demo/Thumbnail_small_house.png))](https://drive.google.com/file/d/19Vll6FrYRwy6NWjy_z7juxf_BR87-VF_/view?usp=sharing)
 This video shows the mapping in the Warehouse environment.
 
 I have posted video in 3x speed !
 
-[![Watch the video](https://github.com/shivasamkumar/AGV_SLAM_Localization_and_Mapping/tree/main/src/robot_car_v2_bringup/Demo/thumbnail_small_warehouse.png)](https://drive.google.com/file/d/1KlILhrtK5QHVsTOS9JB-yxl-etb1lK4Z/view?usp=drive_link)
+[![Watch the video](https://github.com/shivasamkumar/AGV_SLAM_Localization_and_Mapping/tree/main/src/robot_car_v2_bringup/Demo/thumbnail_small_warehouse.png)](https://drive.google.com/file/d/19THgAcLc1siC2gttrrNZ2ROxX0wCCSBm/view?usp=sharing)
 ## Future versions 
 * **Web-Based GUI**
 
